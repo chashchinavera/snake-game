@@ -119,4 +119,4 @@ function drawGame() {
   snake.unshift(newHead); //передвигаем голову
 }
 
-let game = setInterval(drawGame, 150); //запускаем игру
+let game = setInterval(drawGame, 100); //запускаем игру
